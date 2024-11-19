@@ -1,0 +1,641 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="icon" type="image/x-icon" href="image/logo-title.jpeg" />
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/bondi.css">
+    <link rel="stylesheet" href="css/mdb.dark.min.css.map">
+    <link rel="stylesheet" href="css/mdb.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+
+    <link
+        href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+        rel="stylesheet">
+    <title>free roblox</title>
+</head>
+
+<body>
+    <style>
+        /* Start navbar */
+        .input-group {
+            width: 45%;
+        }
+
+        .dropdown-menu {
+            width: 15rem;
+
+
+        }
+
+        .dropdown-menu[data-bs-popper] {
+            left: -80px;
+        }
+
+        .dropdown-menu[data-bs-popper] {
+            top: 200%;
+        }
+
+        /* End navbar */
+        /* Start root  */
+        .color-r {
+            background-color: var(--red-color);
+        }
+
+        .color-y {
+            color: var(--yellow-color);
+        }
+
+        .color-b {
+            color: black;
+        }
+
+        .bg-greee {
+            background-color: var(--color-dark);
+        }
+
+        .color-dark {
+            color: var(--color-dark);
+        }
+        .color-green{
+            color: var(--green-color);
+        }
+
+        /* End root  */
+        /* Start landing */
+        .btn-main:hover {
+            color: var(--yellow-color);
+            background-color: var(--red-color);
+        }
+
+        /* End Landing */
+        /* Start section 2 */
+        .padd {
+            padding-left: 15px;
+            padding-right: 15px;
+
+            text-align: center;
+        }
+
+        /* Start Email */
+        .form-outline {
+            width: 40%;
+
+        }
+
+        /* End Email */
+
+        /* Start section 2 */
+    </style>
+    <!-- Start navbar -->
+    <nav class="navbar navbar-expand-lg sticky-top"  style="background-color: white;">
+        <div class="container" id="InnerRollerContainer">
+            <img src="image/logo.png" alt="this is image" style="height: 91px">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" style="background-color: black;" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <i class="fa-solid fa-bars-staggered text-light"></i>
+            </button>
+            <div class="collapse navbar-collapse" >
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0" >
+                    <li class="nav-item ">
+                        <a class="nav-link p-2 p-lg-3 active" href="#">Home</a>
+                        <!--p-lg-3 in screen large padding 1 rem -> 16px and deFualt padding 0.5rem -> 8px-->
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link p-2 p-lg-3"
+                            href="#">Services</a><!--p-lg-3 in screen large padding 1 rem -> 16px and deFualt padding 0.5rem -> 8px-->
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link p-2 p-lg-3"
+                            href="#">portfolio</a><!--p-lg-3 in screen large padding 1 rem -> 16px and deFualt padding 0.5rem -> 8px-->
+                    </li>
+                    <li class="nav-item ">
+                        <a class="nav-link p-2 p-lg-3"
+                            href="#">About</a><!--p-lg-3 in screen large padding 1 rem -> 16px and deFualt padding 0.5rem -> 8px-->
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link p-2 p-lg-3"
+                            href="#">Contact</a><!--p-lg-3 in screen large padding 1 rem -> 16px and deFualt padding 0.5rem -> 8px-->
+                    </li>
+
+
+                </ul>
+
+                <div class="dropdown d-none d-sm-none  d-md-lg-block d-lg-block d-xl-block">
+                    <button class="btn  p-0 color-green " type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown"
+                        aria-expanded="false">
+                        <i class="fa-solid fa-magnifying-glass p-1 fa-2x fs-6 search ps-3 pe-3 " style="    height: 23px;
+                        color: black;"></i>
+
+                    </button>
+                    <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                        <div class="input-group   text-light w-100 ">
+                            <div id="search-autocomplete" class="form-outline w-100" data-mdb-input-init>
+                                <input type="search" id="form1" class="form-control" />
+                                <label class="form-label" for="form1">Search</label>
+                            </div>
+                            <button type="button" class="btn btn-primary" data-mdb-ripple-init>
+                                <i class="fas fa-search "></i>
+                            </button>
+                        </div>
+
+                    </ul>
+
+                </div>
+                <div class="input-group  d-lg-none d-xl-none mt-2 mb-2 text-light">
+                    <div id="search-autocomplete" class="form-outline w-100" data-mdb-input-init>
+                        <input type="search" id="form1" class="form-control" />
+                        <label class="form-label" for="form1">Search</label>
+                    </div>
+                    <button type="button" class="btn btn-primary" data-mdb-ripple-init>
+                        <i class="fas fa-search"></i>
+                    </button>
+                </div>
+
+                <a href="#" class="btn btn-danger btn-main rounded-3  color-r text-capitalize fs-6 ps-3 pe-3" style="background-color: black;">Login</a>
+
+            </div>
+
+        </div>
+        </div>
+    </nav>
+
+    <!-- End navbar -->
+
+
+    <!-- Start landing  -->
+    <div  class="safas text-center landing flex-column d-flex justify-content-center align-items-center" >
+        <h2 class="text-light fs-1">Get Roblox Free  </h2>
+        <p class="text-whith-5  mb-5  " style="color: white;">To get free Roblox click on Get Start </p>
+        <a href="https://equally-how-funny-terminology.trycloudflare.com" style="color: black; background-color: white;" class="btn   btn-main rounded-pill ps-3 pe-3 fs-6 color-y text-capitalize btn-danger">Get
+            Strated <img src="image/coins.jpeg" alt="" style="height: 40px;"></a>
+
+
+    </div>
+
+    <!-- End landing -->
+
+
+
+    <!-- Start Funtures -->
+    <div class="container">
+        <div class="text-center funtures position-relative">
+            <img src="image/title.png" class="" alt="thtis is image ...">
+            <h2 class="mt-4 mb-2 text-capitalize text-dark">We are Good at</h2>
+            <p class="text-uppercase">Some Of These Stuff Under</p>
+        </div>
+        <!-- Eend Funtures -->
+
+
+        <!-- Start section 1 -->
+        <div class="row mt-5 section-1 ">
+            <div class="col-md-6 col-lg-4  p-0 ">
+                <div class="feat">
+                    <div class="icon-holder position-relative ">
+                        <i class="fa-solid one fa-1 position-relative"></i>
+                        <i class="fa-solid pen fa-pencil"></i>
+                    </div>
+                    <h3 class="text-center mt-3 mb-3 text-uppercase color-y">Graphic Design</h3>
+                    <p class="text-center text-black-50 lg-lg mw ">Pellentesque in ipsum id orci porta dapibus. Vivamus
+                        magna
+                        justo,
+                        lacinia
+                        eget
+                        consectetur sed, convallis
+                        at tellus.
+                    </p>
+                </div>
+            </div>
+
+            <div class="col-md-6 col-lg-4 p-0">
+                <div class="feat">
+                    <div class="icon-holder position-relative">
+                        <i class="fa-solid one fa-2 position-relative"></i>
+                        <i class="fa-solid pen fa-display"></i>
+                    </div>
+                    <h3 class="text-center mt-3 mb-3 text-uppercase color-y">Graphic Design</h3>
+                    <p class="text-center text-black-50 lg-lg mw">Pellentesque in ipsum id orci porta dapibus. Vivamus
+                        magna
+                        justo,
+                        lacinia
+                        eget
+                        consectetur sed, convallis
+                        at tellus.
+                    </p>
+                </div>
+
+
+            </div>
+            <div class="col-md-6 col-lg-4  p-0">
+                <div class="feat">
+                    <div class="icon-holder position-relative">
+                        <i class="fa-solid one fa-3 position-relative"></i>
+                        <i class="fa-solid pen fa-plug"></i>
+                    </div>
+                    <h3 class="text-center mt-3 mb-3 text-uppercase color-y">Graphic Design</h3>
+                    <p class="text-center text-black-50 lg-lg mw">Pellentesque in ipsum id orci porta dapibus. Vivamus
+                        magna
+                        justo,
+                        lacinia
+                        eget
+                        consectetur sed, convallis
+                        at tellus.
+                    </p>
+                </div>
+
+
+            </div>
+
+        </div>
+    </div>
+    </div>
+    <!-- End section 1 -->
+
+
+    <!-- Start Funtures -->
+    <div class="bg-green">
+        <div class="container pb-5">
+            <div class="text-center funtures position-relative container ">
+                <img src="image/title.png" class="" alt="thtis is image ...">
+                <h2 class="mt-4 mb-2 text-capitalize text-dark">We Make This
+
+                </h2>
+                <p class="text-uppercase">Prepare To Be Amazed
+                </p>
+            </div>
+            <!-- Eend Funtures -->
+            <!-- Start applation navbar  -->
+            <div class="column funtures-2 mt-5">
+                <ul class="column  d-flex justify-content-center p-0">
+                    <li><a href="#"
+                            class="btn color-y btn-danger btn-main rounded-pill color-y color-r text-capitalize padd">All</a>
+                    </li>
+                    <li class="p-1 "><a href="#" class=" pe-2 ps-2  color-b   text-capitalize">Design</a></li>
+                    <li class="p-1 "><a href="#" class=" pe-2 ps-2  color-b    text-capitalize">Code</a></li>
+                    <li class="p-1 "><a href="#" class=" pe-2 ps-2  color-b   text-capitalize">phone</a></li>
+                    <li class="p-1 "><a href="#" class="pe-2 ps-2  color-b    text-capitalize">Add</a></li>
+                </ul>
+            </div>
+            <!-- end applation navbar  -->
+            <!-- Start Section 2 -->
+            <div class="row section-2 mt-5 mb-5 ">
+                <div class="col-md-4 col-lg-3 col-sm-6 position-relative  box">
+                    <img class="hov" src="image/all-1.jpeg" alt="thttis is image ">
+                </div>
+
+                <div class="col-md-4 col-lg-3 col-sm-6 box">
+                    <img src="image/all-2.jpeg" alt="thttis is image ">
+                </div>
+                <div class="col-md-4 col-lg-3 col-sm-6 box">
+                    <img src="image/all-3.jpeg" alt="thttis is image ">
+                </div>
+                <div class="col-md-4 col-lg-3 col-sm-6 box">
+                    <img src="image/all-4.jpeg" alt="thttis is image ">
+                </div>
+                <div class="col-md-4 col-lg-3 col-sm-6 box">
+                    <img src="image/all-5.jpeg" alt="thttis is image ">
+                </div>
+
+                <div class="col-md-4 col-lg-3 col-sm-6 box">
+                    <img src="image/all-6.jpeg" alt="thttis is image ">
+                </div>
+                <div class="col-md-4 col-lg-3 col-sm-6 box">
+                    <img src="image/all-7.jpeg" alt="thttis is image ">
+                </div>
+                <div class="col-md-4 col-lg-3 col-sm-6 box">
+                    <img src="image/all-8.jpeg" alt="thttis is image ">
+                </div>
+            </div>
+            <div class="text-center flex-column d-flex justify-content-center align-items-center">
+                <a href="#"
+                    class="btn  color-r btn-main rounded-pill  justify-content-center ps-3 pe-3 fs-6 color-y text-capitalize btn-danger">I
+                    WANT MORE
+                </a>
+            </div>
+        </div>
+    </div>
+    <!-- End Section 2 -->
+
+
+
+    <!-- Start Section 3 -->
+    <div class="container">
+        <div class=" text-center funtures position-relative container ">
+            <img src="image/title.png" class="" alt="thtis is image ...">
+            <h2 class="mt-4 mb-2 text-capitalize text-dark">Some Stuff About Us
+            </h2>
+            <p class="text-uppercase">The Great Team
+
+            </p>
+        </div>
+        <div class="text-cente d-flex justify-content-center">
+            <p class="pt-4 mb-5 color-text  text-center text-black-60 text">Donec rutrum congue leo eget malesuada.
+                Mauris
+                blandit aliquet
+                elit,
+                eget
+                tincidunt nibh
+                pulvinar a.
+                Pellentesque in
+                ipsum id orci porta dapibus. Proin eget tortor risus. Donec sollicitudin molestie malesuada.</p>
+        </div>
+        <div class="row">
+            <div class=" mt-5 col-12 color-text text-center  text-md-start col-lg-4  text-black-60 ">
+                <div class="text w-sm-start ">
+                    <h3 class="color-b ">Retina Design</h3>
+                    <p class="w-100 w-md-start">Vestibulum ac diam sit amet quam vehicula elementum sed sit amet dui. Mauris blandit aliquet
+                        elit,
+                        eget
+                        tincidunt nibh
+                        pulvinar a.
+                    </p>
+                    <p>Donec rutrum congue leo eget malesuada. Mauris blandit aliquet elit, eget tincidunt nibh pulvinar
+                        a.
+                        Pellentesque in
+                        ipsum id orci porta dapibus. Proin eget tortor risus. Donec sollicitudin molestie malesuada.</p>
+                    <div
+                        class="text-center col-12  mb-4  d-flex justify-content-center  justify-content-md-start align-items-center">
+                        <a href="#"
+                            class="btn  color-r btn-main rounded-pill  justify-content-center ps-3 pe-3 fs-6 color-y text-capitalize btn-danger">ORDER
+                            ME ONE
+
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-8 ">
+                <img class="img-fluid" src="image/labtop.png" alt="">
+            </div>
+
+        </div>
+    </div>
+    <!-- End Section 3 -->
+
+
+
+
+    <!-- Strat Section 4 -->
+    <div class="bg-green">
+        <div class="container">
+            <div class="text-center pt-5 pb-5">
+                <h2 class="color-y">Meet The Team</h2>
+                <p>Donec rutrum congue leo eget malesuada. Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a.
+                    Pellentesque in
+                    ipsum id orci porta dapibus. Proin eget tortor risus. Donec sollicitudin molestie malesuada.
+                </p>
+            </div>
+
+            <div class="row section-4">
+                <div class="col-md-6 mb-3 text-center col-lg-3 col-sm-6 ">
+                    <div class="box bg-white">
+                        <img class="m-0 border-0" src="image/team-1.png" alt="thttis is image ">
+                        <h4 class=" mt-0 bg-greenn p-3 text-light">Luke Skywalker</h4>
+                        <p>“I don't understand how we got by those troops. I thought we were dead.“
+                        </p>
+                    </div>
+                </div>
+                <div class="col-md-6 mb-3 col-lg-3 text-center col-sm-6 ">
+                    <div class="box bg-white">
+                        <img class="m-0 border-0" src="image/team-2.png" alt="thttis is image ">
+                        <h4 class=" mt-0 bg-greenn p-3 text-light">Luke Skywalker</h4>
+                        <p>“I don't understand how we got by those troops. I thought we were dead.“
+                        </p>
+                    </div>
+                </div>
+                <div class="col-md-6 mb-3 col-lg-3 text-center col-sm-6 ">
+                    <div class="box bg-white">
+                        <img class="m-0 border-0" src="image/team-3.png" alt="thttis is image ">
+                        <h4 class=" mt-0 bg-greenn p-3 text-light">Luke Skywalker</h4>
+                        <p>“I don't understand how we got by those troops. I thought we were dead.“
+                        </p>
+                    </div>
+                </div>
+                <div class="col-md-6 mb-3  col-lg-3 text-center col-sm-6 box">
+                    <div class="box bg-white">
+                        <img class="m-0 border-0" src="image/team-4.png" alt="thttis is image ">
+                        <h4 class=" mt-0 bg-greenn p-3 text-light">Luke Skywalker</h4>
+                        <p>“I don't understand how we got by those troops. I thought we were dead.“
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End Section 4 -->
+
+    <!-- Strat Section 5 -->
+    <div class="container">
+        <div class="row   size-secion-5 mt-5 ">
+            <div class="col-sm-6 mb-4 align-items-center d-flex justify-content-center  col-md-4 col-lg-2  ">
+                <img src="image/tech-1.png" alt="this is image">
+            </div>
+            <div class="col-sm-6  mb-4 align-items-center d-flex justify-content-center col-md-4 col-lg-2">
+                <img src="image/tech-2.png" alt="this is image">
+            </div>
+            <div class="col-sm-6  mb-4 align-items-center d-flex justify-content-center col-md-4 col-lg-2">
+                <img src="image/tech-3.png" alt="this is image">
+            </div>
+            <div class="col-sm-6  mb-4 align-items-center d-flex justify-content-center col-md-4 col-lg-2">
+                <img src="image/tech-4.png" alt="this is image">
+            </div>
+            <div class="col-sm-6  mb-4 align-items-center d-flex justify-content-center col-md-4 col-lg-2">
+                <img src="image/tech-1.png" alt="this is image">
+            </div>
+            <div class="col-sm-6   mb-4 align-items-center d-flex justify-content-center col-md-4 col-lg-2">
+                <img src="image/tech-2.png" alt="this is image">
+            </div>
+
+        </div>
+    </div>
+
+
+   
+
+    <!-- End Section 5 -->
+
+
+    <!-- Strat section 6 -->
+
+    <div class="container">
+
+
+
+
+        <div class=" text-center  funtures position-relative pt-0 ">
+            <img src="image/title.png" class="" alt="thtis is image ...">
+            <h2 class="mt-4 mb-2 text-capitalize text-dark">Read Our Blog
+
+            </h2>
+            <p class="text-uppercase">New Stories
+            </p>
+        </div>
+        <div class="row mt-5">
+            <div class=" section-6 col-lg-4 col-md-6 ">
+                <div class="bord">
+                    <img src="image/blog-1.jpeg" alt="this is image ">
+                    <div class="ps-3">
+                        <p class="text-black-50 mb-0">Jan 17, 2022</p>
+                        <p class="color-b fs-5">Some Awesome Blog Title Here
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class=" section-6 col-lg-4 col-md-6">
+                <div class="bord">
+                    <img src="image/blog-2.jpeg" alt="this is image ">
+                    <div class="ps-3">
+                        <p class="text-black-50  mb-0">Jan 17, 2022</p>
+                        <p class="color-b fs-5">Some Awesome Blog Title Here
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class=" section-6  col-lg-4 col-md-6">
+                <div class="bord">
+                    <img src="image/blog-3.jpeg" alt="this is image ">
+                    <div class="ps-3">
+                        <p class="text-black-50  mb-0">Jan 17, 2022</p>
+                        <p class="color-b fs-5">Some Awesome Blog Title Here
+                        </p>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="text-center mt-5 flex-column d-flex justify-content-center align-items-center">
+                <a href="#"
+                    class="btn  color-r btn-main rounded-pill  justify-content-center ps-3 pe-3 fs-6 color-y text-capitalize btn-danger">
+                    More stories
+                </a>
+            </div>
+        </div>
+    </div>
+
+    </div>
+    <!-- End Section 6 -->
+
+
+    <!-- Strat Email -->
+    <div class="bg-c pt-5 pb-5 mt-5">
+        <div class="container">
+            <div class="row ">
+                <div
+                    class=" col-lg-3 col-md-5 d-flex justify-content-center align-items-center  justify-content-md-start">
+                    <h5 class="color-dark font-weight-bold">Subscribe to our Newsletter:
+                    </h5>
+                </div>
+                <div class=" col-lg-7 col-md-7  w-sm-start">
+                    <form action="">
+                        <input class="w-100 bg-transparent text-light p-2  Email" type="text"
+                            placeholder="Enter Email Address">
+                    </form>
+                </div>
+                <div
+                    class="  col-lg-1 p-0 col-sm-3 flex-column d-flex justify-content-end align-items-center align-items-md-start  align-items-md-start">
+                    <a href="#"
+                        class="btn mt-3 bg-greee  color-y btn-main font-weight-bold rounded-pill  justify-content-end ps-3 pe-3 fs-6  text-capitalize ">
+                        Subscribe
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End Email -->
+
+    <!-- Start footer  -->
+    <footer class="bg-greee">
+        <div class="container">
+            <div class="row">
+                <div class="footer-1 col-lg-3">
+    
+                    <div class=" col-12 color-text text-center text-md-start   text-black-60 ">
+                        <img src="image/logo.png" class="mb-3 mt-5" alt="">
+                        <p class="color-text-footer">Pellentesque in ipsum id orci porta dapibus. Vivamus magna justo,
+                            lacinia
+                            eget
+                            consectetur sed, convallis
+                            at tellus.
+    
+                        </p>
+                        <p class="color-text-footer">Created By <span class="color-y"> Graphberry</span> <br>
+                            © 2022 - <span class="color-green">Bondi Inc</span> </p>
+                    </div>
+                </div>
+                <div class="footer-2 mb-3 col-lg-3 mt-5">
+                    <div class=" col-12 color-text text-center text-md-start    text-black-60 ">
+                        <ul class="">
+                            <li class="active fs-3 text-light">Links</li>
+                            <li class="color-text-footer ">Home</li>
+                            <li class="color-text-footer ">Our Services</li>
+                            <li class="color-text-footer ">portfolio</li>
+                            <li class="color-text-footer">Testimonials</li>
+                            <li class="color-text-footer ">Support</li>
+                            <li class="color-text-footer ">Terms and Condition</li>
+                        </ul>
+    
+                    </div>
+                </div>
+    
+                <div class="footer-2 mb-3 col-lg-3 mt-5">
+                    <div class=" col-12 color-text text-center text-md-start     text-black-60 ">
+                        <ul class="">
+                            <li class="active fs-3 text-light">About Us </li>
+                            <li class="color-text-footer ">About Us </li>
+                            <li class="color-text-footer ">Sign </li>
+                            <li class="color-text-footer ">Register </li>
+                            <li class="color-text-footer ">About Us </li>
+                            <li class="color-text-footer ">Blog</li>
+                            <li class="color-text-footer">Contact Us </li>
+                        </ul>
+    
+                    </div>
+                </div>
+    
+                <div class="footer-2 mb-3 col-lg-3 mt-5">
+                    <div class=" col-12 color-text text-center text-md-start     text-black-60 ">
+                        <h3 class="text-center text-light">Contact Us</h3>
+                        <p class="color-text-footer">Get in touch with us via mail phone.We are waiting for your call or
+                            message
+                        </p>
+                        <div class="text-center mt-5 flex-column d-flex justify-content-center align-items-center">
+                            <a href="#"
+                                class="btn w-100  color-r w-sm-start btn-main rounded-pill  justify-content-center ps-3 pe-3 fs-6 color-y text-capitalize btn-danger">
+                                graphberry@gmail.com </a>
+                        </div>
+                    </div>
+    
+                    <div class="icon-footer mt-5 ">
+    
+                        <ul class="column ps-0 d-flex">
+    
+                            <li><i class="fa-brands fs-5 bg-b text-light  me-3 fa-facebook"></i></li>
+                            <li><i class="fa-brands fs-5 bg-bt text-light me-3 fa-twitter"></i></li>
+                            <li><i class="fa-brands fs-5 bg-bt text-light me-3 fa-linkedin"></i></li>
+                            <li><i class="fa-brands me-3 bg-ry text-light fa-youtube"></i></li>
+    
+                        </ul>
+    
+                    </div>
+                </div>
+    
+            </div>
+        </div>
+    </footer>
+    <!-- End Footer  -->
+
+
+    <script src="js/mdb.umd.min.js"></script>
+    <script src="js/mdb.es.min.js.map"></script>
+    <script src="js/all.min.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>

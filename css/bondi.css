@@ -1,0 +1,283 @@
+body{
+  font-family: "Roboto", sans-serif;
+   
+}
+
+
+:root{
+    --color-dark:#19283f;
+    --green-color: #33d1cc;
+    --red-color: #ff3150;
+    --yellow-color: #ffc400;
+    --section-color: #eff7fa;
+
+}
+/* Start Navbar  */
+.navbar{
+    background-color: var(--color-dark);
+}
+.nav-item a ,.nav-item a.active{
+color: black;
+margin: 20px;
+}
+.safas {
+    background-image: url(image/all-4.jpeg);
+     background-repeat: no-repeat;
+  
+    margin-bottom: 25px;
+    max-width: 100%;
+    height: auto;
+}
+.navbar-collapse{
+    justify-content: flex-end;
+}
+
+.navbar .navbar-nav  .nav-link.active,
+.navbar .navbar-nav .nav-link:focus,
+.navbar .navbar-nav  .nav-link:hover{
+color: black;
+}
+
+.search{
+    border-left: 1px solid var(--green-color);
+    padding-left: 10px;
+    
+    
+}
+.nav-item ul li a{
+    color: black;
+}
+.search button{
+    background: none;
+    border: none;
+    color: var(--green-color);
+}
+
+.login button{
+    background: none;
+    border: none;
+  background-color: var(--red-color);
+  color: var(--yellow-color);
+}
+
+.navbar .navbar-toggler{
+    color: white;
+    font-size: 25px;
+    border: 2px solid white;
+}
+/* End Navbar  */
+/* Start Landing  */
+.landing{
+    min-height: calc(100vh - 60.5px);
+    background-image: url(../image/download\ \(1\).jpeg);
+    border: 5px solid rgb(247, 245, 245);
+    margin-bottom: 25px;
+    max-width: 100%;
+    height: auto;
+ 
+}
+
+
+/* End landing  */
+
+/* Start funtures */
+
+.funtures{
+margin-top: 100px;
+}
+.funtures::after{
+    content: "";
+    background-color: var(--green-color);
+    position: absolute;
+    text-align: center;
+    height: 2px;
+    width: 120px;
+    bottom: -20px;
+    left: 50%;
+    transform: translateX(-50%);
+   
+}
+.funtures h2{
+    font-weight: 500;
+    color: black;
+}
+.one{
+    font-size: 15rem;
+    color: var(--section-color);
+    opacity: 1 ;
+    position: absolute;
+    z-index: -1;
+     left: 50%;
+    transform: translateX(-50%);
+}
+.pen{
+    font-size: 4.5rem;
+    color:var(--green-color);
+    position: absolute;
+    bottom: 0;
+     left: 50%;
+    transform: translateX(-50%);
+}
+.mw{
+    max-width: 400px;
+    margin: 0 auto;
+}
+ul li{
+    list-style: none;
+    text-transform: capitalize;
+}
+.funtures-2 li a:hover {
+    color: var(--red-color);
+}
+.funtures-2 li:first-child a{
+    color: var(--yellow-color);
+}
+/* End funtures */
+
+/* Start section 2 */
+
+
+.section-2 div img{
+    border: 5px solid rgb(247, 245, 245);
+   margin-bottom: 25px;
+    max-width: 100%;
+   height: auto ;
+}
+.bg-green{
+    background-color: var(--section-color);
+
+}
+.funtures{
+    padding-top: 100px;
+}
+
+.funtures-2 li a{
+    font-weight: 400;
+}
+
+/* end section 2 */
+/* Start section 3 */
+
+.color-text{
+    color: rgba(0, 0, 0, .5) !important;
+}
+
+.img-fluid {
+    max-width: 100%;
+    height: auto;
+}
+
+/* End Secttion 3 */
+
+
+/* Start section 4 */
+.bg-greenn{
+    background-color: var(--green-color);
+}
+.bg-white{
+    background-color: var(--section-color);
+}
+
+
+.section-4 div img{
+   
+   margin-bottom: 25px;
+    max-width: 100%;
+   height: auto ;
+}
+
+.section-4{
+    padding-bottom: 100px;
+}
+
+/* End section 4 */
+
+/* Strat section 5 */
+
+.bg-greee{
+    background-color: var(--color-dark);
+}
+
+
+.he-section-5{
+    height: 310px;
+}
+/* End Section 5 */
+
+/* Strat section 6 */
+.section-6 div img{
+   
+   margin-bottom: 25px;
+    max-width: 100%;
+   height: auto ;
+}
+.bord{
+    border: 1px solid #eee;
+    border-radius: 2px;
+}
+/* End Section 6 */
+
+/* Strat Email */
+.bg-c{
+    background-color: var(--yellow-color);
+}
+.Email{
+
+    border: none;
+    border-bottom: 1px solid white;
+    color: white;
+}
+.Email input{
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.Email {
+    outline: none;
+}
+.font-weight-bold{
+    font-weight: bold;
+}
+
+
+/* End Email */
+
+
+/* Start footer  */
+.color-text-footer{
+    color: rgba(255,255,255,.5)!important;
+}
+
+.fa-facebook{
+    border: 8px solid #0d6efd;
+    border-radius: 50%;
+}
+.bg-b{
+    background-color: #0d6efd;
+}
+.bg-bt{
+    background-color: #1da1f2;
+}
+.bg-bl{
+    background-color: #0077b5;
+}
+.fa-twitter{
+    border: 8px solid #1da1f2;
+    border-radius: 50%;
+}
+.fa-linkedin{
+    border: 9px solid #0077b5;
+    border-radius: 50%;
+}
+.fa-youtube{
+    border: 10px solid #ff0000;
+    border-radius: 50%;
+}
+.bg-ry{
+ background-color:#ff0000 ;}
+
+ .footer-2 ul,.footer-3 ul{
+    line-height: 2;
+ }
+/* End footer  */
